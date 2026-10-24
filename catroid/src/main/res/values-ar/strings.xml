@@ -778,7 +778,9 @@
     <!-- -->
     <!-- About Dialog -->
     <string formatted="false" name="dialog_about_title">حول هذا التطبيق</string>
-    <string formatted="false" name="dialog_about_license_info">يوفر هذا التطبيق بيئة برمجة ومفسّرًا للغة البرمجة المرئية Catrobat.\n الشيفرة المصدرية لهذا التطبيق مرخّصة بشكل رئيسي بموجب ترخيص GNU AGPL v3. لمزيد من التفاصيل حول الترخيص، اطّلع على الرابط أدناه.\n</string>
+    <string formatted="false" name="dialog_about_license_info">تطبيق YoungMakers Coding مبني على Catroid، وهو مشروع مفتوح المصدر من فريق Catrobat. يوفر بيئة برمجة ومفسّرًا للغة البرمجة المرئية Catrobat.\n
+        الشيفرة المصدرية مرخّصة بشكل أساسي بموجب رخصة GNU AGPL v3.
+        لمزيد من التفاصيل حول الرخصة، راجع الرابط أدناه.\n</string>
     <string formatted="false" name="dialog_about_license_link_text">ترخيص الشيفرة المصدرية</string>
     <string formatted="false" name="dialog_about_catrobat_link_text">حول Catrobat</string>
     <string formatted="false" name="dialog_about_catrobat_language_version">إصدار لغة Catrobat</string>

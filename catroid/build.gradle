@@ -46,7 +46,7 @@ repositories {
 }
 
 ext {
-    appId = 'org.catrobat.catroid'
+    appId = 'com.youngmaker.bcode'
     appName = '@string/app_name'
     manifestAppName = '@string/app_name'
     manifestAppIcon = '@mipmap/ic_launcher'

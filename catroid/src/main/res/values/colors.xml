@@ -24,7 +24,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Toolbar and Bottombar Colors -->
-    <color name="toolbar_background">#002B3B</color>
+    <color name="toolbar_background">#2A1A78</color>
     <color name="toolbar_icons">@color/solid_white</color>
 
     <!-- Text Colors -->
@@ -32,22 +32,22 @@
     <color name="checkbox_and_radio_button_description">@color/solid_white</color>
     <color name="dialog_title_and_text_view">@color/solid_white</color>
     <color name="view_holder_headline">@color/solid_white</color>
-    <color name="view_holder_item_title">#aadbf0</color>
+    <color name="view_holder_item_title">#D9D2FF</color>
     <color name="view_holder_item_details">@color/solid_white</color>
     <color name="spinner_icon_and_inactive_elements">@color/solid_white</color>
 
     <!-- Backgrounds -->
-    <color name="app_background">#04222C</color>
-    <color name="button_background">#00475E</color>
+    <color name="app_background">#1A1046</color>
+    <color name="button_background">#442AAF</color>
     <color name="advertising_button_background">#00ACC1</color>
-    <color name="button_bottom_bar">#00475E</color>
-    <color name="button_border_top">#4D7F8F</color>
+    <color name="button_bottom_bar">#442AAF</color>
+    <color name="button_border_top">#7B66D6</color>
 
     <!-- Accent Colors -->
-    <color name="accent">#A8DFF4</color>
+    <color name="accent">#CFC6FF</color>
     <color name="brick_field_highlight">#33B5E5</color>
     <color name="snackbar">#FF33B5E5</color>
-    <color name="separator">#51656C</color>
+    <color name="separator">#5B4F94</color>
     <color name="action_button">#ffab08</color>
 
     <!-- Formula Editor Colors -->
