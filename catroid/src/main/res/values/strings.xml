@@ -2354,4 +2354,30 @@ needs read and write access to it. You can always change permissions through you
     <string formatted="false" name="shortcut_permission_required_message">This device requires shortcut permission to be granted before adding a shortcut to the home screen. Please grant the permission in settings.</string>
     <string formatted="false" name="miui_open_settings">Open Settings</string>
     <string formatted="false" name="shortcut_already_pinned">This project is already pinned to your home screen</string>
+
+    <!-- YoungMakers: examples and lessons -->
+    <string formatted="false" name="menu_examples">Examples</string>
+    <string formatted="false" name="menu_learn">Learn</string>
+    <string formatted="false" name="examples_dialog_title">Ready-made projects</string>
+    <string formatted="false" name="learn_try_example">Create this example project</string>
+    <string formatted="false" name="example_bounce_name">Bouncing Ball</string>
+    <string formatted="false" name="example_bounce_desc">A ball that bounces off the edges. Tap it to change its direction.</string>
+    <string formatted="false" name="example_bounce_sprite">Ball</string>
+    <string formatted="false" name="example_star_name">Tap the Star</string>
+    <string formatted="false" name="example_star_desc">Tap the star to make it grow and spin.</string>
+    <string formatted="false" name="example_star_sprite">Star</string>
+    <string formatted="false" name="example_robot_name">Walking Robot</string>
+    <string formatted="false" name="example_robot_desc">A robot that walks across the screen. Tap it to say hello.</string>
+    <string formatted="false" name="example_robot_sprite">Robot</string>
+    <string formatted="false" name="example_robot_hello">Hello! I am a robot.</string>
+    <string formatted="false" name="learn_lesson1_title">1. Welcome to YoungMakers Coding</string>
+    <string formatted="false" name="learn_lesson1_body">Coding means giving a computer clear steps to follow. Here you build those steps by snapping colored blocks, called bricks, together.\n\n- A project is your whole game or story.\n- An actor or object is a character or item on the stage.\n- A script is a stack of bricks that tells an actor what to do.\n- The stage is the screen where your project runs. Press Play to see it.\n\nTip: open Examples from the menu to try a ready-made project.</string>
+    <string formatted="false" name="learn_lesson2_title">2. Your first project</string>
+    <string formatted="false" name="learn_lesson2_body">1. On the main screen, create a new project and give it a name.\n2. Tap an actor or object to open it. You will see its scripts, looks and sounds.\n3. Add a brick to the script by tapping the plus button and choosing one from the list.\n4. Go back to the project and press Play.\n5. Change the numbers inside the bricks and play again to see what changes.\n\nTip: experiment freely. You can always delete a brick.</string>
+    <string formatted="false" name="learn_lesson3_title">3. Make a character move</string>
+    <string formatted="false" name="learn_lesson3_body">Movement is the heart of many games.\n\n1. Start with a Place at brick to choose where the actor begins.\n2. Add a Move brick so it travels in the direction it points.\n3. Put the movement inside a Forever brick so it never stops.\n4. Add If on edge, bounce so it turns around at the edge of the screen.\n\nTry the Bouncing Ball example to see all of these bricks together.</string>
+    <string formatted="false" name="learn_lesson4_title">4. Respond to touch</string>
+    <string formatted="false" name="learn_lesson4_body">Games react to the player. A script that starts with the When tapped brick runs when someone touches the actor.\n\n1. Add a script that starts with When tapped to your actor.\n2. Put bricks under it, like Change size by or Turn right.\n3. Press Play and tap the actor on the stage.\n\nThe Repeat brick runs the bricks inside it again and again, a set number of times. Open the Tap the Star example to see a spin made with Repeat.</string>
+    <string formatted="false" name="learn_lesson5_title">5. Animate with looks</string>
+    <string formatted="false" name="learn_lesson5_body">A look is a picture of an actor. An actor can have many looks, and switching between them makes it seem to move.\n\n1. Add two or more looks to an actor.\n2. Use the Next look brick to switch to the next picture.\n3. Add a Wait brick so the change is not too fast.\n4. Combine it with Change x by to make a walking animation.\n\nOpen the Walking Robot example, then tap the robot to make it say hello.</string>
 </resources>

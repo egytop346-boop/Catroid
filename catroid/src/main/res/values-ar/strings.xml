@@ -2185,4 +2185,30 @@
     <string formatted="false" name="shortcut_permission_required_message">يتطلب هذا الجهاز منح إذن الاختصارات قبل إضافة اختصار إلى الشاشة الرئيسية. يُرجى منح الإذن في الإعدادات.</string>
     <string formatted="false" name="miui_open_settings">فتح الإعدادات</string>
     <string formatted="false" name="shortcut_already_pinned">هذا المشروع مثبّت بالفعل على شاشتك الرئيسية</string>
+
+    <!-- YoungMakers: examples and lessons -->
+    <string formatted="false" name="menu_examples">أمثلة</string>
+    <string formatted="false" name="menu_learn">تعلّم</string>
+    <string formatted="false" name="examples_dialog_title">مشاريع جاهزة</string>
+    <string formatted="false" name="learn_try_example">أنشئ هذا المشروع التجريبي</string>
+    <string formatted="false" name="example_bounce_name">الكرة المرتدة</string>
+    <string formatted="false" name="example_bounce_desc">كرة ترتد عن الحواف. المسها لتغيير اتجاهها.</string>
+    <string formatted="false" name="example_bounce_sprite">كرة</string>
+    <string formatted="false" name="example_star_name">المس النجمة</string>
+    <string formatted="false" name="example_star_desc">المس النجمة لتكبر وتدور.</string>
+    <string formatted="false" name="example_star_sprite">نجمة</string>
+    <string formatted="false" name="example_robot_name">الروبوت الماشي</string>
+    <string formatted="false" name="example_robot_desc">روبوت يمشي عبر الشاشة. المسه ليقول مرحبًا.</string>
+    <string formatted="false" name="example_robot_sprite">روبوت</string>
+    <string formatted="false" name="example_robot_hello">مرحبًا! أنا روبوت.</string>
+    <string formatted="false" name="learn_lesson1_title">١. مرحبًا بك في YoungMakers Coding</string>
+    <string formatted="false" name="learn_lesson1_body">البرمجة تعني إعطاء الحاسوب خطوات واضحة لينفذها. هنا تبني هذه الخطوات بتجميع قطع ملونة تسمى الأوامر بجانب بعضها.\n\n- المشروع هو لعبتك أو قصتك كاملة.\n- الشخصية أو الكائن هو ما يظهر على المسرح.\n- النص البرمجي هو مجموعة أوامر تخبر الشخصية بما تفعله.\n- المسرح هو الشاشة التي يعمل عليها مشروعك. اضغط تشغيل لتراه.\n\nنصيحة: افتح أمثلة من القائمة لتجرّب مشروعًا جاهزًا.</string>
+    <string formatted="false" name="learn_lesson2_title">٢. مشروعك الأول</string>
+    <string formatted="false" name="learn_lesson2_body">١. من الشاشة الرئيسية، أنشئ مشروعًا جديدًا واختر له اسمًا.\n٢. المس شخصية أو كائنًا لفتحه. سترى نصوصه البرمجية ومظاهره وأصواته.\n٣. أضف أمرًا إلى النص البرمجي بالضغط على زر الإضافة واختيار أمر من القائمة.\n٤. ارجع إلى المشروع واضغط تشغيل.\n٥. غيّر الأرقام داخل الأوامر ثم شغّل المشروع مرة أخرى لترى ما الذي تغيّر.\n\nنصيحة: جرّب بحرية، فيمكنك دائمًا حذف أي أمر.</string>
+    <string formatted="false" name="learn_lesson3_title">٣. اجعل الشخصية تتحرك</string>
+    <string formatted="false" name="learn_lesson3_body">الحركة أساس كثير من الألعاب.\n\n١. ابدأ بالأمر «ضع في» لتحديد مكان بداية الشخصية.\n٢. أضف الأمر «تحرّك» لتتقدم في الاتجاه الذي تشير إليه.\n٣. ضع الحركة داخل الأمر «كرّر باستمرار» لتستمر دون توقف.\n٤. أضف «إذا لامست الحافة، ارتدّ» لتستدير عند حافة الشاشة.\n\nجرّب مثال الكرة المرتدة لترى كل هذه الأوامر معًا.</string>
+    <string formatted="false" name="learn_lesson4_title">٤. تفاعل مع اللمس</string>
+    <string formatted="false" name="learn_lesson4_body">الألعاب تستجيب للاعب. النص البرمجي الذي يبدأ بالأمر «عند النقر عليك» يعمل عندما يلمس أحدهم الشخصية.\n\n١. أضف إلى شخصيتك نصًا برمجيًا يبدأ بـ «عند النقر عليك».\n٢. ضع تحته أوامر مثل «غيّر الحجم بمقدار» أو «استدر لليمين».\n٣. اضغط تشغيل ثم المس الشخصية على المسرح.\n\nالأمر «كرّر» يعيد تنفيذ الأوامر التي بداخله عددًا محددًا من المرات. افتح مثال المس النجمة لترى دورانًا مصنوعًا بهذا الأمر.</string>
+    <string formatted="false" name="learn_lesson5_title">٥. حرّك الشخصية بتغيير المظاهر</string>
+    <string formatted="false" name="learn_lesson5_body">المظهر هو صورة للشخصية. يمكن أن يكون للشخصية عدة مظاهر، والتبديل بينها يجعلها تبدو متحركة.\n\n١. أضف مظهرين أو أكثر إلى الشخصية.\n٢. استخدم الأمر «المظهر التالي» للانتقال إلى الصورة التالية.\n٣. أضف الأمر «انتظر» حتى لا يكون التغيير سريعًا جدًا.\n٤. ادمجه مع «غيّر س بمقدار» لتصنع حركة مشي.\n\nافتح مثال الروبوت الماشي ثم المس الروبوت ليقول مرحبًا.</string>
 </resources>

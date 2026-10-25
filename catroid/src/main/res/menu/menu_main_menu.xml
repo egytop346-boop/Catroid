@@ -36,6 +36,16 @@
         app:showAsAction="ifRoom" />
 
     <item
+        android:id="@+id/menu_examples"
+        android:title="@string/menu_examples"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_placeholder" />
+    <item
+        android:id="@+id/menu_learn"
+        android:title="@string/menu_learn"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_placeholder" />
+    <item
         android:id="@+id/menu_rate_app"
         android:title="@string/main_menu_rate_app"
         app:showAsAction="never"

@@ -137,6 +137,10 @@
         </activity>
 
         <activity
+            android:name=".ui.LearnActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".ui.MarketingActivity"
             android:screenOrientation="portrait" />
 

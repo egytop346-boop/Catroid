@@ -36,12 +36,17 @@ import android.text.method.LinkMovementMethod
 import android.text.style.ForegroundColorSpan
 import android.util.Log
 import android.view.KeyEvent
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ArrayAdapter
+import android.widget.TextView
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.core.text.HtmlCompat
 import org.catrobat.catroid.BuildConfig
 import org.catrobat.catroid.ProjectManager
+import org.catrobat.catroid.examples.ExampleLauncher
 import org.catrobat.catroid.R
 import org.catrobat.catroid.cast.CastManager
 import org.catrobat.catroid.common.Constants
@@ -264,6 +269,8 @@ class MainMenuActivity : BaseCastActivity(), ProjectLoadListener {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
+            R.id.menu_examples -> showExamplesDialog()
+            R.id.menu_learn -> startActivity(Intent(this, LearnActivity::class.java))
             R.id.menu_rate_app -> if (Utils.checkIsNetworkAvailableAndShowErrorMessage(this)) {
                 try {
                     startActivity(
@@ -305,6 +312,38 @@ class MainMenuActivity : BaseCastActivity(), ProjectLoadListener {
             else -> return super.onOptionsItemSelected(item)
         }
         return true
+    }
+
+    private fun showExamplesDialog() {
+        val titles = listOf(
+            getString(R.string.example_bounce_name),
+            getString(R.string.example_star_name),
+            getString(R.string.example_robot_name)
+        )
+        val descriptions = listOf(
+            getString(R.string.example_bounce_desc),
+            getString(R.string.example_star_desc),
+            getString(R.string.example_robot_desc)
+        )
+        val adapter = object : ArrayAdapter<String>(
+            this,
+            android.R.layout.simple_list_item_2,
+            android.R.id.text1,
+            titles
+        ) {
+            override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+                val view = super.getView(position, convertView, parent)
+                view.findViewById<TextView>(android.R.id.text2).text = descriptions[position]
+                return view
+            }
+        }
+        AlertDialog.Builder(this)
+            .setTitle(R.string.examples_dialog_title)
+            .setAdapter(adapter) { _, which ->
+                ExampleLauncher.createAndOpen(this, projectManager, which)
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
     }
 
     private fun prepareStandaloneProject() {
