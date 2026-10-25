@@ -126,26 +126,26 @@ public final class Constants {
 	public static final String TEXT_TO_SPEECH_TMP_PATH = TMP_PATH + "/textToSpeech";
 
 	// Web:
-	private static final String MAIN_URL_PRODUCTION = "https://share.catrob.at";
-	public static final String UPLOAD_URL = "https://upload.catrob.at";
+	private static final String MAIN_URL_PRODUCTION = "https://btrain.youngmakers.top";
+	public static final String UPLOAD_URL = "https://btrain.youngmakers.top";
 	private static final String WEB_TEST_URL = BuildConfig.WEB_TEST_URL;
 	public static final String MAIN_URL_HTTPS = BuildConfig.WEB_TEST_FLAG ? WEB_TEST_URL : MAIN_URL_PRODUCTION;
 
 	// Default "flavor" in the web which equals "pocketcode"
 	public static final String BASE_APP_URL_HTTPS = MAIN_URL_HTTPS + "/app/";
 
-	public static final String SHARE_PROJECT_URL = BASE_URL_HTTPS + "/project/";
+	public static final String SHARE_PROJECT_URL = BASE_URL_HTTPS + "project/";
 
 	public static final String CATROBAT_ABOUT_URL = "https://www.catrobat.org/";
-	public static final String CATROBAT_FORMULA_WIKI_URL = "https://catrobat.org/docs/";
+	public static final String CATROBAT_FORMULA_WIKI_URL = "https://youngmakers.top/";
 	public static final String ABOUT_POCKETCODE_LICENSE_URL = "https://developer.catrobat.org/pages/legal/licenses/";
-	public static final String WEB_REQUEST_WIKI_URL = "https://catrobat.org/docs/";
+	public static final String WEB_REQUEST_WIKI_URL = "https://youngmakers.top/";
 
-	public static final String CATROBAT_TERMS_OF_USE_URL = "https://developer.catrobat.org/pages/legal/terms-of-use-and-service/";
-	public static final String CATROBAT_FUNCTIONS_WIKI_URL = "https://catrobat.org/docs/";
-	public static final String CATROBAT_LOGIC_WIKI_URL = "https://catrobat.org/docs/";
-	public static final String CATROBAT_SENSORS_WIKI_URL = "https://catrobat.org/docs/";
-	public static final String CATROBAT_OBJECT_WIKI_URL = "https://catrobat.org/docs/";
+	public static final String CATROBAT_TERMS_OF_USE_URL = "https://youngmakers.top/terms";
+	public static final String CATROBAT_FUNCTIONS_WIKI_URL = "https://youngmakers.top/";
+	public static final String CATROBAT_LOGIC_WIKI_URL = "https://youngmakers.top/";
+	public static final String CATROBAT_SENSORS_WIKI_URL = "https://youngmakers.top/";
+	public static final String CATROBAT_OBJECT_WIKI_URL = "https://youngmakers.top/";
 	public static final String CATROBAT_DELETE_ACCOUNT_URL = BASE_URL_HTTPS + "profile/edit";
 	public static final String CATROBAT_TERMS_OF_USE_TOKEN_FLAVOR_URL = "?flavorName=";
 	public static final String CATROBAT_TERMS_OF_USE_TOKEN_VERSION_URL = "&versionCode=";

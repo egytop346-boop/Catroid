@@ -34,9 +34,9 @@ import static org.catrobat.catroid.common.Constants.UPLOAD_URL;
 
 public final class FlavoredConstants {
 	// Web:
-	public static final String BASE_URL_HTTPS = "https://catrobat.org/docs/";
+	public static final String BASE_URL_HTTPS = MAIN_URL_HTTPS + "/";
 
-	public static final String BASE_UPLOAD_URL = UPLOAD_URL + "/pocketcode/";
+	public static final String BASE_UPLOAD_URL = UPLOAD_URL + "/";
 
 	public static final String CATROBAT_HELP_URL = "https://youngmakers.top/";
 
@@ -56,12 +56,12 @@ public final class FlavoredConstants {
 	public static final String LIBRARY_BASE_URL = MAIN_URL_HTTPS + "/app/download-media/";
 
 	// Media Library:
-	public static final String CATROBAT_BASE_URL = "https://catrobat.org/";
-	public static final String CATROBAT_CONTENT_DOWNLOAD_URL = CATROBAT_BASE_URL + "wp-content/";
-	public static final String CATROBAT_CONTENT_LOOKS_URL = CATROBAT_BASE_URL +  "figures-download/";
-	public static final String CATROBAT_CONTENT_SOUNDS_URL = CATROBAT_BASE_URL + "sounds-download/";
-	public static final String CATROBAT_CONTENT_BACKGROUNDS_URL = CATROBAT_BASE_URL + "backgrounds-download/";
-	public static final String PRIVACY_POLICY_URL = "https://youngmakers.top/";
+	public static final String CATROBAT_BASE_URL = MAIN_URL_HTTPS + "/media/";
+	public static final String CATROBAT_CONTENT_DOWNLOAD_URL = CATROBAT_BASE_URL + "files/";
+	public static final String CATROBAT_CONTENT_LOOKS_URL = CATROBAT_BASE_URL + "looks/";
+	public static final String CATROBAT_CONTENT_SOUNDS_URL = CATROBAT_BASE_URL + "sounds/";
+	public static final String CATROBAT_CONTENT_BACKGROUNDS_URL = CATROBAT_BASE_URL + "backgrounds/";
+	public static final String PRIVACY_POLICY_URL = "https://youngmakers.top/privacy";
 
 	private FlavoredConstants() {
 		throw new AssertionError("No.");

@@ -126,8 +126,8 @@ android {
         manifestPlaceholders += [appName: manifestAppName,
                                  appIcon: manifestAppIcon,
                                  intentFilterScheme: "https",
-                                 intentFilterHost: "share.catrob.at",
-                                 intentFilterPathPattern: "/.*/project/.*"]
+                                 intentFilterHost: "btrain.youngmakers.top",
+                                 intentFilterPathPattern: "/project/.*"]
 
         buildConfigField "String", "GIT_COMMIT_INFO", "\"${getGitCommitInfo()}\""
         buildConfigField "String", "WEB_TEST_URL", "\"" + project.getProperties().get('webTestUrl') + "\""

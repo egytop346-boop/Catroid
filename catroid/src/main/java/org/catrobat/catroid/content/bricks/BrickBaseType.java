@@ -189,7 +189,7 @@ public abstract class BrickBaseType implements Brick {
 	}
 
 	public String getHelpUrl(String category) {
-		return "https://wiki.catrobat.org/bin/view/Documentation/BrickDocumentation/" + this.getClass().getSimpleName();
+		return "https://youngmakers.top/";
 	}
 
 	protected String getPositionInformation() {
